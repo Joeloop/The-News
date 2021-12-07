@@ -6,9 +6,12 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package cl.ucn.disc.dsm.jgomez.thenews;
+package cl.ucn.disc.dsm.jgomez.thenews.services;
 
-
+import cl.ucn.disc.dsm.jgomez.thenews.model.News;
+import cl.ucn.disc.dsm.jgomez.thenews.services.Contracts;
+import cl.ucn.disc.dsm.jgomez.thenews.services.ContractsImplFaker;
+import cl.ucn.disc.dsm.jgomez.thenews.model.News;
 import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -6,9 +6,10 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package cl.ucn.disc.dsm.jgomez.thenews;
+package cl.ucn.disc.dsm.jgomez.thenews.services;
 
 import java.util.List;
+import cl.ucn.disc.dsm.jgomez.thenews.model.News;
 
 /**
  * The Contracts of The News Project

@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package cl.ucn.disc.dsm.jgomez.thenews;
+package cl.ucn.disc.dsm.jgomez.thenews.model;
 import java.time.ZonedDateTime;
 import lombok.Getter;
 import net.openhft.hashing.LongHashFunction;

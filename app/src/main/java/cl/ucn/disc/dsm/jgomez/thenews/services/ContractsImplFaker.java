@@ -6,17 +6,20 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package cl.ucn.disc.dsm.jgomez.thenews;
+package cl.ucn.disc.dsm.jgomez.thenews.services;
 import com.github.javafaker.Faker;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import cl.ucn.disc.dsm.jgomez.thenews.model.News;
+import cl.ucn.disc.dsm.jgomez.thenews.services.Contracts;
+
 /**
  * Cotract Implementation of News with Faker
  */
-public class ContractsImplFaker implements Contracts{
+public class ContractsImplFaker implements Contracts {
 
     /**
      * @return all the News in the backend sorted by publishedAt
