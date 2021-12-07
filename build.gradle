@@ -7,13 +7,14 @@ def HOUR_MINUTE = new Date().format('HHmm').toInteger()
 def BUILD_TIMESTAMP = 100000 + YEAR_WEEK + 10000 + DAY + HOUR_MINUTE
 
 // Semantic Versioning
-def MAJOR = 1   // 1=Ant, 2=Beetle, 3=Caterpillar
+def MAJOR = 1
 def MINOR = 0
 def PATCH = BUILD_TIMESTAMP
 
 // The build version
-// Using Bugs
-def BUILD_VERSION = "-${MAJOR}.${MINOR}.${PATCH}"
+
+// Using colors
+def BUILD_VERSION = "Azure-${MAJOR}.${MINOR}.${PATCH}"
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
