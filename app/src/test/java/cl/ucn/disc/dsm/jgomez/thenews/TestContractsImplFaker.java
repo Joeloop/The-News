@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package cl.ucn.disc.dsm.jgomez.thenews.services;
+package cl.ucn.disc.dsm.jgomez.thenews;
 
 import cl.ucn.disc.dsm.jgomez.thenews.model.News;
 import cl.ucn.disc.dsm.jgomez.thenews.services.Contracts;
